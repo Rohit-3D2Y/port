@@ -33,7 +33,7 @@ function ContactForm() {
 
   return (
     <>
-    <div className="text-center text-[8vw] font-[Oswald] flex items-center justify-center gap-1 md:text-[3vw] mb-4 md:text-center mt-4">
+    <div className="text-center text-[8vw] font-[Oswald] flex items-center justify-center gap-1 md:text-[3vw] mb-4 md:text-center mt-12">
     <h1>Contact Me</h1>
     <img
       src="https://www.svgrepo.com/show/530412/user.svg"

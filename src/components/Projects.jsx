@@ -23,12 +23,7 @@ const Projects = () => {
         toolKit: ["HTML", "CSS", "Javascript"," API", "Github"],
         img:pers1
     }, 
-    {
-      heading:"Portfolio",
-      desc: "A simple Portfolio website displaying my creative skills and technical skills with a magic of responsiveness over every device.",
-      toolKit: ["ReactJS", "Github","Lottie"],
-      img:pers4
-  }, 
+   
     {
         heading:"LearnEasy",
         desc: "A curriculum guide based website for First year Undergraduate students with Notes, PYQs, Video lectures all at one place.",
@@ -70,7 +65,7 @@ const Projects = () => {
    ];
 
   return (
-    <div className="w-full min-h-screen py-5">
+    <div className="w-full min-h-screen py-5 md:min-h-0">
       <div className="text-center text-[8vw] font-[Oswald] flex items-center justify-center gap-1 md:text-[3vw]">
         <h1>Projects</h1>
         <img
@@ -125,17 +120,17 @@ const Projects = () => {
             {tasks.map((task, index) => (
             <div key={index} className="text-center mt-4 md:w-1/4">
               <div className="project1 w-full relative">
-                <img
+                {/* <img
                   src="https://www.freeiconspng.com/thumbs/macbook/white-technology-macbook-image-12.png"
                   className="p-2 relative z-99 mt-2 h-[60vw] md:h-[16vw]"
-                />
+                /> */}
 
                 <img
-                  className="absolute top-[5vw] left-[14vw] h-[45vw] rounded-sm w-[68vw] overflow-hidden md:h-[12vw] md:w-[17.5vw] md:top-5 md:left-[3.7vw]"
+                  className=" h-[50vw] border-[2px] border-orange-500 rounded-2xl m-auto w-[70vw] md:h-[15vw] md:w-[30vw]"
                   src={task.img}
                 />
 
-                <div className="font-[Bree+Serif] font-semibold text-[5vw] md:text-[2vw] md:w-full">
+                <div className="font-[Bree+Serif] font-semibold text-[5vw] mt-4 md:text-[1.8vw] md:w-full">
                   {task.heading}
                   <h1 className="text-[4vw] text-gray-600 md:text-[1.2vw] md:w-full">
                     {task.desc}

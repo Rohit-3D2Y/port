@@ -49,7 +49,7 @@ const Landing = () => {
   
   return (
     <div>
-      <div className=" w-full min-h-screen p-5 flex flex-col justify-center items-center md:flex md:flex-row-reverse">
+      <div className=" w-full min-h-screen p-5 flex flex-col justify-center items-center md:min-h-0 md:flex md:flex-row-reverse">
         <div className="md:mr-10">
           {/* <img
             className="w-[70vw] h-[70vw] mt-[350px] p-0  md:w-[40vw] md:h-[20vw] md:mt-20"
@@ -99,7 +99,7 @@ const Landing = () => {
               />
               <h1 className="font-[Oswald]"> Connect with Me!</h1>
             </div>
-            <div className="icons w-full  h-[15vw] mt-4 flex text-[9vw] gap-4 flex-wrap md:text-[3vw] md:px-16 md:h-[4vw]">
+            <div className="icons w-full  h-[15vw] mt-4 justify-center flex text-[9vw] gap-4 flex-wrap md:text-[3vw] md:px-10 md:h-[4vw] md:justify-start">
 
               <a><FaSquareXTwitter className=""/></a>
               <a><FaLinkedin className="text-blue-900" /></a>
