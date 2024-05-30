@@ -87,28 +87,28 @@ const Projects = () => {
         >
           <img
             src="https://www.svgrepo.com/show/530231/collect.svg"
-            className="h-[8vw] w-[8vw] z-9 ml-6 relative md:h-[3vw] md:w-[3vw] md:ml-64"
+            className="h-[8vw] w-[8vw] z-9 ml-6 relative md:h-[3vw] md:w-[3vw]"
           />
           <div
-            className={`relative w-full h-[10vw] mt-2   font-[Bree+Serif] font-semibold ${
+            className={`relative w-content h-[10vw] mt-2   font-[Bree+Serif] font-semibold ${
               activeTab === "tab1" ? "text-white" : "text-black"
-            } md:flex md:items-center md:mt-0 md:text-[1.5vw]`}
+            } md:flex md:items-center md:justify-center md:mt-0 md:text-[1.5vw]`}
           >
             Personal
           </div>
         </div>
         <div
-          className="flex tab2 w-2/3 items-center gap-1 cursor-pointer"
+          className="flex tab2 w-2/3 justify-center items-center gap-1 cursor-pointer"
           onClick={() => handleTabClick("tab2")}
         >
           <img
             src="https://www.svgrepo.com/show/530241/tips.svg"
-            className="h-[8vw] w-[8vw] z-9 ml-6 relative md:h-[3vw] md:w-[3vw] md:ml-64"
+            className="h-[8vw] w-[8vw] z-9 ml-6 relative md:h-[3vw] md:w-[3vw]"
           />
           <div
-            className={`relative  w-full h-[10vw] mt-2  font-[Bree+Serif] font-semibold ${
+            className={`relative  w-content h-[10vw] mt-2  font-[Bree+Serif] font-semibold ${
               activeTab === "tab2" ? "text-white" : "text-black"
-            } md:flex md:items-center md:mt-0 md:text-[1.5vw]`}
+            } md:flex md:items-center  md:justify-center md:mt-0 md:text-[1.5vw]`}
           >
             Freelance
           </div>
