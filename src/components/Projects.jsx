@@ -87,7 +87,7 @@ const Projects = () => {
         >
           <img
             src="https://www.svgrepo.com/show/530231/collect.svg"
-            className="h-[8vw] w-[8vw] z-9 ml-6 relative md:h-[3vw] md:w-[3vw]"
+            className="h-[8vw] w-[8vw] z-9  relative md:h-[3vw] md:w-[3vw]"
           />
           <div
             className={`relative w-content h-[10vw] mt-2   font-[Bree+Serif] font-semibold ${
@@ -103,7 +103,7 @@ const Projects = () => {
         >
           <img
             src="https://www.svgrepo.com/show/530241/tips.svg"
-            className="h-[8vw] w-[8vw] z-9 ml-6 relative md:h-[3vw] md:w-[3vw]"
+            className="h-[8vw] w-[8vw] z-9  relative md:h-[3vw] md:w-[3vw]"
           />
           <div
             className={`relative  w-content h-[10vw] mt-2  font-[Bree+Serif] font-semibold ${
@@ -126,7 +126,7 @@ const Projects = () => {
                 /> */}
 
                 <img
-                  className=" h-[50vw] border-[2px] border-orange-500 rounded-2xl m-auto w-[70vw] md:h-[15vw] md:w-[30vw]"
+                  className=" h-[50vw] border-[2px]  rounded-2xl m-auto w-[70vw] md:h-[15vw] md:w-[30vw]"
                   src={task.img}
                 />
 

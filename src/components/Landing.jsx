@@ -101,10 +101,10 @@ const Landing = () => {
             </div>
             <div className="icons w-full  h-[15vw] mt-4 justify-center flex text-[9vw] gap-4 flex-wrap md:text-[3vw] md:px-10 md:h-[4vw] md:justify-start">
 
-              <a><FaSquareXTwitter className=""/></a>
-              <a><FaLinkedin className="text-blue-900" /></a>
-              <a> <FaGithub className="text-black"/></a>
-              <a> <FaInstagram
+              <a href="https://x.com/BeyonderCR1" target="_blank"><FaSquareXTwitter className=""/></a>
+              <a href="https://www.linkedin.com/in/rohit-tiwari-b5152a30b/" target="_blank"><FaLinkedin className="text-blue-900" /></a>
+              <a href="https://github.com/Rohit-3D2Y" target="_blank"> <FaGithub className="text-black"/></a>
+              <a href="https://github.com/Rohit-3D2Y" target="_blank"> <FaInstagram
                className="text bg-gradient-to-r from-purple-700 via-pink-500 to-orange-500 text-white p-1 rounded-[7px]"
               /></a>
 
